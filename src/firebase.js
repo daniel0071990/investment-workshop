@@ -7,12 +7,12 @@ import { getDatabase, ref, push, set, get, remove, onValue } from "firebase/data
 
 const firebaseConfig = {
   apiKey: "AIzaSyA_49WDIDT7MkRqv5TFsDTx9Q_xj-JyChk",
-  authDomain: "PASTE_YOUR_PROJECT_ID.firebaseapp.com",
+  authDomain: "investment-team-workshop-1.firebaseapp.com",
   databaseURL: https://investment-team-workshop-1-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "investment-team-workshop-1",
-  storageBucket: "PASTE_YOUR_PROJECT_ID.firebasestorage.app",
+  storageBucket: "investment-team-workshop-1.firebasestorage.app",
   messagingSenderId: "1:1048724444277:web:f8f6b7ba0b7575d16cd43c",
-  appId: "PASTE_YOUR_APP_ID"
+  appId: "1:1048724444277:web:f8f6b7ba0b7575d16cd43c"
 };
 
 const app = initializeApp(firebaseConfig);
